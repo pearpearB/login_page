@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>유효성 검사</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="validator.js"></script>
+</head>
+
+<body>
+  <h1>OCEANs</h1>
+  <div id="container">
+	<img src="https://www.publicdomainpictures.net/pictures/160000/nahled/surfers-1460571677SNW.jpg">
+	<fieldset class="userBlock">
+		<label></label>
+		<input type="text" id="username" placeholder="아이디를 입력하세요">
+		<div class="failure-message hide">아이디는 4글자 이상이어야 합니다.</div>
+		<div class="success-message hide">사용할 수 있는 아이디입니다.</div>
+	</fieldset>
+  
+	<fieldset class="userBlock">
+		<label></label>
+		<input type="password" id="password" placeholder="비밀번호를 입력하세요">
+	</fieldset>
+  
+	<fieldset class="userBlock">
+		<label></label>
+		<input type="password" id="password-retype" placeholder="비밀번호를 확인하세요">
+		<div class="mismatch-message hide">비밀번호와 불일치합니다.</div>
+	</fieldset>
+  
+	<fieldset class="userBlock">
+		<button class="register" onclick=test()>회원가입</button>
+		<script> test = () => console.log('123');</script>
+	</fieldset>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+
+</html>

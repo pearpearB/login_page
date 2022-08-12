@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+	font-family: '고딕';
+	font-weight: normal;
+	font-size: small; 
+	color: #000;
+}
+
+body {
+	margin : 0;
+	padding : 0;
+	background-color: rgb(200, 253, 233);
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width : 100%;
+	height : 100px;
+	font-weight: bold;
+	font-size: xx-large;
+	text-align: center;
+	letter-spacing:0.5em;
+	color: #fff;
+	box-sizing: border-box;
+	width: 300px;
+	height: 170px;
+	margin: 20px auto;
+	border-radius: 50%;
+	background-color: rgb(18, 42, 252);
+}
+
+#container {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width : 40%;
+	border: 20%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	width : 130px;
+	height : 130px;
+	border-radius: 30px;
+	margin: 20px;
+}
+
+fieldset {
+	padding:2ex;
+	border : 0;
+}
+
+.userBlock {
+	margin: 0 auto;
+	text-align: center; /*tlqk!부모에 이렇게 하면 자식들이 줄줄이 가운데 정렬*/
+}
+
+#username {
+	width: 80%;
+	height: 40px;
+}
+
+#password {
+	width: 80%;
+	height: 40px;
+}
+
+#password-retype {
+	width: 80%;
+	height: 40px;
+}
+
+.register {
+	width: 80%;
+	height: 4em;
+    margin: auto;
+	border: 0;
+	display: block;
+	border-radius: 30px;
+	background-color : rgb(18, 42, 252);
+	letter-spacing:0.5em;
+	color: #fff;
+}
+
+.click {
+	width: 80%;
+	height: 4em;
+    margin: auto;
+	border: 0;
+	display: block;
+	border-radius: 30px;
+	background-color : rgb(252, 114, 34);
+	box-shadow: 0px 10px 35px rgb(185, 85, 27);
+	letter-spacing:0.5em;
+	color: #fff;
+}
+
+.hide {
+  display: none;
+}
